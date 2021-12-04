@@ -1,0 +1,113 @@
+.article-main {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.article-heading-div {
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.article-parent-card {
+    justify-content: space-around;
+}
+.article-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    width: 60vw;
+    height: 15rem;
+    border-radius: 10px;
+}
+.article-card-img-div {
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 5px;
+}
+.article-card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.article-card-text {
+    font-size: 18px;
+}
+.article-card-heading {
+    font-size: 2rem;
+}
+.big-img-div-article {
+    width: 100%;
+    height: 80vh;
+    margin-top: 12rem;
+}
+.big-img-article {
+    width: 100%;
+    height: 100%;
+}
+.top-post-main {
+    align-items: center;
+    width: 30vw;
+    height: auto;
+}
+.advertisement {
+    width: 100%;
+    height: 120vh;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.top-post-img-div {
+    width: 100%;
+    height: 20rem;
+}
+.top-post-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-post-img-div-card {
+    width: 5rem;
+    height: 5rem;
+}
+.top-post-img {
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 786px){
+    .big-img-div-article {
+        display: none;
+    }
+    .advertisement {
+        display: none;
+    }
+    .article-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article-parent-card {
+        width: 90vw;
+    } 
+    .article-card{
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .article-card-img-div {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    .content {
+        width: 100%;
+    }
+    .top-post-main{
+        width: 90vw;
+    }
+}

@@ -1,0 +1,37 @@
+.sirenSign-Main {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.the-div {
+    font-size: 2rem;
+    text-align: center;
+    transform: rotate(270deg);
+}
+
+.siren-div {
+    font-size: 5rem;
+}
+
+@media only screen and (max-width: 786px){
+    .Main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .sirenSign-Main {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .the-div {
+        font-size: 2rem;
+        text-align: center;
+        transform: rotate(270deg);
+    }
+    .siren-div {
+        font-size: 5rem;
+    }
+}

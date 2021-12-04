@@ -1,0 +1,83 @@
+.bar-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 2rem;
+}
+.hr {
+    background-color: gray;
+}
+.home {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.bollywood {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.hollywood {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.technology {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.fitness {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.food {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 786px){
+    .bar-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+    }
+    .hr {
+        background-color: gray;
+    }
+    .home {
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .bollywood {
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .hollywood {
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .technology {
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .fitness {
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .food {
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
